@@ -59,12 +59,13 @@ img {
 header {
   border-bottom: 1px solid #ececec;
 }
-.header-container {
-  width: 1200px;
-  margin: auto;
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-box {
   display: flex;
   justify-content: space-between;
-  padding: 24px 15px 25px;
 }
 .site-nav {
   display: flex;
@@ -129,11 +130,14 @@ header {
 /* HERO */
 .hero {
   background-color: var(--hero-footer-background);
+
+  padding: 200px 0;
 }
-.hero-container {
+.container {
   width: 1200px;
-  margin: auto;
-  padding: 200px 252px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .hero-title {
   font-weight: 900;
@@ -145,7 +149,8 @@ header {
 
   color: var(--white-color);
 
-  margin-bottom: 30px;
+  max-width: 696px;
+  margin: 0 auto 30px;
 }
 .hero-btn {
   font-family: 'Roboto', sans-serif;
@@ -169,11 +174,11 @@ header {
   background-color: var(--hero-btn-background);
 }
 /* BENEFITS */
-.container {
-  width: 1200px;
-  margin: auto;
-  padding: 94px 15px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .benefits-list {
   display: flex;
   gap: 30px;
@@ -199,10 +204,8 @@ header {
   color: var(--text-color);
 }
 /* DOING */
-.doing-container {
-  width: 1200px;
-  margin: auto;
-  padding: 0px 15px 94px;
+.doing {
+  padding-top: 0;
 }
 .doing-list {
   display: flex;
@@ -268,26 +271,22 @@ header {
 /* FOOTER */
 .footer {
   background-color: var(--hero-footer-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-.footer-container {
-  width: 1200px;
-  margin: auto;
-  padding: 60px 15px;
-}
+
 .footer-contacts-list {
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
-.logo-link-footer {
-  display: block;
-  margin-bottom: 20px;
-}
+
 .logo-second {
   color: var(--white-color);
 }
 .address {
   font-style: normal;
+  margin-top: 20px;
 }
 .adress-link {
   font-weight: 400;
@@ -299,11 +298,8 @@ header {
 }
 /* STYLES FOR PORTFOLIO.HTML */
 
-.portfolio-container {
-  width: 1200px;
-  margin: auto;
+.portfolio {
   padding-top: 63px;
-  padding-bottom: 94px;
 }
 
 /* FILTERS */
