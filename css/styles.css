@@ -183,6 +183,9 @@ header {
   display: flex;
   gap: 30px;
 }
+.benefits-item {
+  flex-basis: calc((100%-90px) / 4);
+}
 
 .benefits-title {
   font-weight: 700;
@@ -242,6 +245,10 @@ header {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team-member-container {
+  padding: 30px 10px;
+}
+
 .team-member-title {
   font-weight: 500;
   font-size: 16px;
@@ -262,11 +269,9 @@ header {
   color: var(--text-color);
 
   text-align: center;
-  margin-bottom: 30px;
 }
 .team-member-photo {
   display: block;
-  margin-bottom: 30px;
 }
 /* FOOTER */
 .footer {
@@ -297,10 +302,6 @@ header {
   color: var(--white-color);
 }
 /* STYLES FOR PORTFOLIO.HTML */
-
-.portfolio {
-  padding-top: 63px;
-}
 
 /* FILTERS */
 .filters-list {
